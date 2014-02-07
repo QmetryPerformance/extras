@@ -1,0 +1,12 @@
+2014/02/06 12:15:09 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/02/06 12:15:09 INFO  - jmeter.JMeter: Loading user properties from: D:\apache-jmeter-2.9\bin\user.properties 
+2014/02/06 12:15:09 INFO  - jmeter.JMeter: Loading system properties from: D:\apache-jmeter-2.9\bin\system.properties 
+2014/02/06 12:15:09 FATAL - jmeter.JMeter: An error occurred:  java.lang.IllegalArgumentException: Unknown arg: D:\apache-jmeter-2.9\extras\QmetryCommonCSV.jmx
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:594)
+	at org.apache.jmeter.JMeter.start(JMeter.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:218)
+
